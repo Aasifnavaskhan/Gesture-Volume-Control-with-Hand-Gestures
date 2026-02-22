@@ -1,7 +1,7 @@
-opencv-python
-mediapipe
-numpy
 streamlit
+opencv-python
+numpy
+mediapipe
 pycaw
 comtypes
 pythoncom
