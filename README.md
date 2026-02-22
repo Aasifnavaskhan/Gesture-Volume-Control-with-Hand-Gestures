@@ -49,20 +49,19 @@ The gesture is continuously tracked, allowing smooth and responsive volume contr
 
 ## 📁 Project Structure
 
-
+```
 Gesture-Volume-Control-with-Hand-Gestures/
 │
-├── app.py # Main Streamlit application
-├── handgesture.py # Hand gesture detection & volume logic
-├── run_app.py # Application launcher
-├── requirements.txt # Project dependencies
-├── README.md # Project documentation
-├── LICENSE # License file
-└── .gitignore # Ignored files
-
+├── app.py              # Main Streamlit application
+├── handgesture.py      # Hand gesture detection & volume logic
+├── run_app.py          # Application launcher
+├── requirements.txt    # Project dependencies
+├── README.md           # Project documentation
+├── LICENSE             # License file
+└── .gitignore          # Ignored files
+```
 
 ---
-
 ## ▶️ How to Run the Project
 
 ### Step 1: Install Dependencies
