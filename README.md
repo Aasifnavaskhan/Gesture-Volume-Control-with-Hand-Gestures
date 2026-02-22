@@ -119,7 +119,7 @@ applications and serves as a strong foundation for advanced gesture-controlled s
 ---
 
 ## 👤 Author
-Aasif Navaskhan
+Aasif N
 
 ---
 
