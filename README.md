@@ -44,9 +44,12 @@ The gesture is continuously tracked, allowing smooth and responsive volume contr
 5. PyCaw updates system volume accordingly  
 6. Streamlit displays live video and volume status  
 
+
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
+
+
 Gesture-Volume-Control-with-Hand-Gestures/
 │
 ├── app.py # Main Streamlit application
@@ -59,59 +62,67 @@ Gesture-Volume-Control-with-Hand-Gestures/
 
 
 ---
+
 ## ▶️ How to Run the Project
 
 ### Step 1: Install Dependencies
-  '''bash
-  pip install -r requirements.txt 
+```bash
+pip install -r requirements.txt
+```
 
 ### Step 2: Run the Application
-  python run_app.py
+```bash
+python run_app.py
+```
+
+OR
+
+```bash
+streamlit run app.py
+```
 
 ### Step 3: Use the Application
-  Allow webcam access
-  Show your hand to the camera
-  Use pinch gesture to control volume
-  Click Stop Camera to end
-
-
----
-### 🖥️ Output
-
-Live webcam feed displayed in browser
-
-Real-time hand landmark visualization
-
-Smooth volume adjustment based on gesture
-
-Volume percentage displayed on UI
-
+- Allow webcam access
+- Show your hand to the camera
+- Use pinch gesture to control volume
+- Click Stop Camera to end
 
 ---
-⚠️ Limitations
 
-Works only on Windows OS (PyCaw dependency)
-
-Requires good lighting for accurate hand detection
-
-Single-hand gesture support
-
+## 🖥️ Output
+- Live webcam feed displayed in browser
+- Real-time hand landmark visualization
+- Smooth volume adjustment based on gesture
+- Volume percentage displayed on UI
 
 ---
-🎓 Conclusion
 
+## ⚠️ Limitations
+- Works only on Windows OS (PyCaw dependency)
+- Requires good lighting for accurate hand detection
+- Supports only single-hand gestures
+
+---
+
+## 🚀 Future Enhancements
+- Add mute / unmute gesture
+- Support multiple hand gestures
+- Cross-platform audio control (Linux & macOS)
+- Improve gesture robustness using gesture classification
+
+---
+
+## 🎓 Conclusion
 This project demonstrates how computer vision and gesture recognition can be combined to create
 natural and touchless interfaces. It highlights the practical use of MediaPipe and OpenCV in real-time
 applications and serves as a strong foundation for advanced gesture-controlled systems.
 
+---
+
+## 👤 Author
+Aasif Navaskhan
 
 ---
-👤 Author
 
-Aasif N
-
-
----
-📜 License
-
+## 📜 License
 This project is licensed under the MIT License.
